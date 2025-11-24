@@ -179,10 +179,6 @@ def crear_buscador(X_tr):
         refit=True,
     )
 
-# Paso 4.
-# Optimice los hiperparametros del pipeline usando validación cruzada.
-
-
 # Paso 5.
 # Guarde el modelo (comprimido con gzip) como "files/models/model.pkl.gz".
 def guardar_modelo(modelo):
